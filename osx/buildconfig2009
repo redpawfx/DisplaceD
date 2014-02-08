@@ -1,0 +1,45 @@
+#-
+# ==========================================================================
+# Copyright 1995,2006,2008 Autodesk, Inc. All rights reserved.
+#
+# Use of this software is subject to the terms of the Autodesk
+# license agreement provided at the time of installation or download,
+# or which otherwise accompanies this software in either electronic
+# or hard copy form.
+# ==========================================================================
+#+
+
+# Change location if you have a non standard install.
+# DEVKIT_LOCATION = /Applications/Alias/mayaX.0/devkit
+# DEVKIT_LOCATION = $(MAYA_LOCATION)/../../devkit
+
+MAYA_LOCATION = /Applications/Autodesk/maya2009/Maya.app/Contents
+DEVKIT_LOCATION = /Applications/Autodesk/maya2009/devkit
+
+# Make sure these are in your path.
+CC			= gcc-4.0
+C++			= g++-4.0
+LD			= g++-4.0
+
+# Settings
+CFLAGS		= -DCC_GNU_ -DOSMac_ -DOSMacOSX_ -DBits32_ -DREQUIRE_IOSTREAM\
+				-DOSMac_MachO_ -O3 \
+				-arch i386  -D_LANGUAGE_C_PLUS_PLUS \
+				-include "$(DEVKIT_LOCATION)/include/maya/OpenMayaMac.h" 
+C++FLAGS	= $(CFLAGS) $(WARNFLAGS) $(ERROR_FLAGS) -fno-gnu-keywords -fpascal-strings
+INCLUDES	= -I. -I"$(DEVKIT_LOCATION)/include"
+DYNLIB_LOCATION	= $(MAYA_LOCATION)/MacOS
+LFLAGS		= -fno-gnu-keywords -fpascal-strings  \
+				-isysroot /Developer/SDKs/MacOSX10.4u.sdk \
+				-arch i386  -headerpad_max_install_names \
+				-framework System -framework SystemConfiguration \
+				-framework CoreServices -framework Carbon \
+				-framework Cocoa -framework ApplicationServices \
+				-framework QuickTime -framework IOKit \
+				-bundle
+LFLAGS_GL	= -framework OpenGL -framework AGL
+EXT		= bundle
+
+LREMAP = -Wl,-executable_path,"$(DYNLIB_LOCATION)"
+LIBS		= $(LFLAGS) -L"$(DYNLIB_LOCATION)" $(LREMAP) -lFoundation -lOpenMaya -lOpenMayaUI -lOpenMayaAnim -lOpenMayaFX -lOpenMayaRender -lImage
+LIBS_GL_EXTRA	= $(LFLAGS_GL)
