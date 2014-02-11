@@ -1,7 +1,9 @@
 DisplaceD
 =========
 
- DisplaceD  Maya plugin. originallly   by  Hajime Nakamura.
+DisplaceD  Maya plugin. originally   by  Hajime Nakamura.
+
+Now being supported by  redpawFX
 
 More info about this great plugin  here.
 
