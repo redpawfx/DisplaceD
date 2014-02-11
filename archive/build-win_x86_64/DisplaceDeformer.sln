@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisplaceDeformer", "DisplaceDeformer.vcxproj", "{456758D0-0D9B-4D0C-8861-3739AE992D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win64 = Debug|Win64
+		Debug|x64 = Debug|x64
+		Release_2008|Win64 = Release_2008|Win64
+		Release_2008|x64 = Release_2008|x64
+		Release_2009|Win64 = Release_2009|Win64
+		Release_2009|x64 = Release_2009|x64
+		Release_2010|Win64 = Release_2010|Win64
+		Release_2010|x64 = Release_2010|x64
+		Release_2011|Win64 = Release_2011|Win64
+		Release_2011|x64 = Release_2011|x64
+		Release_2012|Win64 = Release_2012|Win64
+		Release_2012|x64 = Release_2012|x64
+		Release_2013|Win64 = Release_2013|Win64
+		Release_2013|x64 = Release_2013|x64
+		Release_2014|Win64 = Release_2014|Win64
+		Release_2014|x64 = Release_2014|x64
+		Release_6.5|Win64 = Release_6.5|Win64
+		Release_6.5|x64 = Release_6.5|x64
+		Release_7.0|Win64 = Release_7.0|Win64
+		Release_7.0|x64 = Release_7.0|x64
+		Release_8.0|Win64 = Release_8.0|Win64
+		Release_8.0|x64 = Release_8.0|x64
+		Release_8.5|Win64 = Release_8.5|Win64
+		Release_8.5|x64 = Release_8.5|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Debug|Win64.ActiveCfg = Debug|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Debug|Win64.Build.0 = Debug|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Debug|x64.ActiveCfg = Debug|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Debug|x64.Build.0 = Debug|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2008|Win64.ActiveCfg = Release_2008|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2008|Win64.Build.0 = Release_2008|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2008|x64.ActiveCfg = Release_2008|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2008|x64.Build.0 = Release_2008|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2009|Win64.ActiveCfg = Release_2009|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2009|Win64.Build.0 = Release_2009|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2009|x64.ActiveCfg = Release_2009|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2009|x64.Build.0 = Release_2009|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2010|Win64.ActiveCfg = Release_2010|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2010|Win64.Build.0 = Release_2010|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2010|x64.ActiveCfg = Release_2010|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2010|x64.Build.0 = Release_2010|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2011|Win64.ActiveCfg = Release_2011|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2011|Win64.Build.0 = Release_2011|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2011|x64.ActiveCfg = Release_2011|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2011|x64.Build.0 = Release_2011|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2012|Win64.ActiveCfg = Release_2012|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2012|Win64.Build.0 = Release_2012|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2012|x64.ActiveCfg = Release_2012|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2012|x64.Build.0 = Release_2012|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2013|Win64.ActiveCfg = Release_2013|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2013|Win64.Build.0 = Release_2013|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2013|x64.ActiveCfg = Release_2013|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2013|x64.Build.0 = Release_2013|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2014|Win64.ActiveCfg = Release_2014|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2014|Win64.Build.0 = Release_2014|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2014|x64.ActiveCfg = Release_2014|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_2014|x64.Build.0 = Release_2014|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_6.5|Win64.ActiveCfg = Release_6.5|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_6.5|Win64.Build.0 = Release_6.5|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_6.5|x64.ActiveCfg = Release_6.5|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_6.5|x64.Build.0 = Release_6.5|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_7.0|Win64.ActiveCfg = Release_7.0|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_7.0|Win64.Build.0 = Release_7.0|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_7.0|x64.ActiveCfg = Release_7.0|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_7.0|x64.Build.0 = Release_7.0|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.0|Win64.ActiveCfg = Release_8.0|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.0|Win64.Build.0 = Release_8.0|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.0|x64.ActiveCfg = Release_8.0|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.0|x64.Build.0 = Release_8.0|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.5|Win64.ActiveCfg = Release_8.5|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.5|Win64.Build.0 = Release_8.5|Win32
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.5|x64.ActiveCfg = Release_8.5|x64
+		{456758D0-0D9B-4D0C-8861-3739AE992D58}.Release_8.5|x64.Build.0 = Release_8.5|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
